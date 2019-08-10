@@ -13,7 +13,8 @@
   "files": [
     "LICENSE.md",
     "README.md",
-    "bin/"
+    "bin/",
+    "src"
   ],
   "watch": {
     "build": {

@@ -4,27 +4,26 @@ import {
 } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 
-import Counter from '../Counter';
+import MsgDisplayer from '../MsgDisplayer';
 import Field from '../Field';
 
 import './style.less';
 
 const App = () => (
   <div className="app">
-    <h1>React</h1>
     <HashRouter>
       <div>
         <ul className="app__router">
           <li>
-            <Link to="/counter">Counter</Link>
+            <Link to="/msg">Message</Link>
           </li>
           <li>
-            <Link to="/field">Field</Link>
+            <Link to="/field">Other Route</Link>
           </li>
         </ul>
         <hr />
-        <Route exact path="/" render={() => <Redirect to="/counter" />} />
-        <Route exact path="/counter" component={Counter.view} />
+        <Route exact path="/" render={() => <Redirect to="/msg" />} />
+        <Route exact path="/msg" component={MsgDisplayer.view} />
         <Route exact path="/field" component={Field.view} />
       </div>
     </HashRouter>

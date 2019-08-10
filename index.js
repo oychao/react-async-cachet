@@ -1,3 +1,3 @@
-import sayHello from './src/main';
+import cachet from './src/main';
 
-export default sayHello;
+export default { cachet };
