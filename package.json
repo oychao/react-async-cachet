@@ -1,15 +1,15 @@
 {
-  "name": "npm-demo",
-  "version": "1.0.0",
+  "name": "react-async-cachet",
+  "version": "0.0.1-alpha.1",
   "main": "./bin/bundle.js",
   "author": {
-    "name": "your name",
-    "email": "your@email.com"
+    "name": "ouyang-chao",
+    "email": "chao@ouyang.io"
   },
   "license": "WTFPL",
-  "repository": "https://github.com/your/package/address",
+  "repository": "https://github.com/oychao/react-async-cachet",
   "keywords": [],
-  "description": "a npm package",
+  "description": "Disable async methods after a component being unmounted.",
   "files": [
     "LICENSE.md",
     "README.md",
