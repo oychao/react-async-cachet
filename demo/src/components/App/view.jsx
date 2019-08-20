@@ -7,7 +7,7 @@ import { hot } from 'react-hot-loader';
 import MsgDisplayer from '../MsgDisplayer';
 import Field from '../Field';
 
-import './style.less';
+// import './style.less';
 
 const App = () => (
   <div className="app">
