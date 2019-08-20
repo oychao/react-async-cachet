@@ -7,7 +7,7 @@ import { createBrowserHistory } from 'history';
 import store from './src/store';
 import App from './src/components/App';
 
-import './index.less';
+// import './index.less';
 
 ReactDOM.render(
   <Provider store={store}>
