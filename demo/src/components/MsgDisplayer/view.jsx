@@ -4,7 +4,7 @@ import { hot } from 'react-hot-loader';
 import { cachet } from 'react-async-cachet';
 
 const someAsyncAction = () => new Promise(res => setTimeout(res, 3e3, 'Aha!'));
-const someAsyncAction2 = () => new Promise((res, rej) => setTimeout(rej, 3e3, 'Oops, It\'s an error'));
+// const someAsyncAction2 = () => new Promise((res, rej) => setTimeout(rej, 3e3, 'Oops, It\'s an error'));
 
 class MsgDisplayer extends React.Component {
   constructor(props) {
